@@ -1,0 +1,163 @@
+body {
+    font-family: 'Abel', sans-serif;
+    text-anchor: black;
+}
+
+.images { 
+ display: flex;
+}
+
+.images img {
+ width: 25%;
+}
+
+.header-main {
+    position: relative;
+    width: inherit;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    margin: 6px;
+    padding: 6px 6px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-inline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+
+}
+
+div {
+    display: block;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.facebook {
+	border:0;
+	width:30px;
+	height:30px;
+}
+
+.instagram {
+	border:0;
+	width:30px;
+	height:30px;
+}
+
+.twitter {
+	border:0;
+	width:30px;
+	height:30px;
+}
+
+.footer-main {
+    position: relative;
+    width: inherit;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    margin: 6px;
+    padding: 6px 6px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.socials    {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.copyright {
+    margin: 6px;
+    padding: 6px 6px;
+
+}
+
+.list {
+    font-style: normal;
+    font-size: large;
+    color: darkslategrey;
+    font: bolder;
+
+}
+
+.outer {
+    position:relative;
+    width: 200px;
+    height: 300px;
+}
+
+.books  {
+    height: 200px;
+    width: auto;
+}
+
+.name   {
+    font-family: 'Abel', sans-serif;
+}
+
+.container2 {
+    position: relative;
+    width: inherit;
+    width: 100;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgrey;
+  }
+  
+  .container2:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text2 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
