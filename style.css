@@ -7,6 +7,10 @@ body {
  display: flex;
 }
 
+.image-centre {
+  width: 25%;
+}
+
 .images img {
  width: 25%;
 }
