@@ -76,6 +76,15 @@
             <li id="instagram"><a href="https://www.instagram.com/explore/tags/womenswrites/"><img src='instagram.png' class="img-responsive instagram" alt="Follow us on Instagram"></a></li>
         </ul>
     </footer>
-    <script> src="contactus.js"</script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyUzYh6MVy5n-KRJNZJ-VQMOfrnAMrGMY&callback=myMap"></script>
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyUzYh6MVy5n-KRJNZJ-VQMOfrnAMrGMY&callback=myMap"></script>
 </body>
