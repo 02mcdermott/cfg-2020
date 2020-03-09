@@ -26,6 +26,33 @@
         </header>
     </nav>
 
+    <br>
+    <section>
+        <div class="container">
+        <form action="/action_page.php" method="post">
+            <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="United Kingdom">UK</option>
+                <option value="canada">Canada</option>
+                <option value="United states of America">US</option>
+                <option value="Australia">Australia</option>
+                <option value="Elsewhere">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Leave a message for us..." style="height:200px"></textarea>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="myFunction()">Submit</button>
+                    <script> function myFunction() {alert("Thank you for joining our mailing list!");}</script>
+          </form>
+        </div>
+    </section>
+<br>
     <main>
       <h1 ID="contacts"> Join our mailing list</h1>
         <div class="container">
