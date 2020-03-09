@@ -5,6 +5,7 @@ body {
 
 .images { 
  display: flex;
+ cursor: alias;
 }
 
 
