@@ -201,7 +201,12 @@ input[type=text], select, textarea {
       color: black;
   }
 
+
+
 .jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
   background-color: #f2f2f2;
 }
-
