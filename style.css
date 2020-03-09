@@ -200,3 +200,7 @@ input[type=text], select, textarea {
       color: black;
   }
 
+.jumbotron {
+  background-color: #f2f2f2;
+}
+
