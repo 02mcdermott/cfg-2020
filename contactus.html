@@ -18,9 +18,15 @@
                 <a href="thebooks.html">THE BOOKS</a>
                 <a href="contactus.html" id="contact-us">CONTACT US</a>
                 <a href="reviews.html">REVIEWS</a>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form class="form-inline" action="https://www.google.co.uk" target="_blank">
+                    <input name="q" class="form-control mr-sm-2" type="search" placeholder="Search in Google" aria-label="Search">
+                    <button id="submit" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <script>
+                        var q = "Testing Google Search";
+                        document.getElementById('search').onclick=function(){
+                            window.open('https://www.google.co.uk/search?q='+q);
+                        };
+                    </script>
                 </form>
             </div>
         </header>
@@ -29,7 +35,7 @@
     <main>
       <h1 ID="contacts"> Join our mailing list</h1>
         <div class="container">
-          
+          <form id="mrForm">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your first name..">
           
@@ -48,7 +54,11 @@
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Leave a message for us..." style="height:200px"></textarea>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="myFunction()">Submit</button>
-                    <script> function myFunction() {alert("Thank you for joining our mailing list!");}</script>
+                    <script> function myFunction() {
+                        alert("Thank you for joining our mailing list!");
+                        document.getElementById("myForm").reset();
+                        }
+                    </script>
           
             </form>
           </div>
