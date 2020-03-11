@@ -210,3 +210,7 @@ input[type=text], select, textarea {
   color: inherit;
   background-color: #eee;
 }
+
+.button {
+  background-color: cadetblue;
+}
